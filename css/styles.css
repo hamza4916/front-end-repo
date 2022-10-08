@@ -1,44 +1,52 @@
-body{
-    background-color: aliceblue;
-    text-align: center;
+body {
+  background-color: aliceblue;
+  text-align: center;
 }
 
+.top-div h3 {
+  width: 250px;
+  margin-left: 40px;
+  color: #27285c;
+}
+.top-div p {
+  color: rgb(154, 151, 151);
+}
+.top-div a {
+  text-decoration: none;
+  color: gray;
+}
+.top-div a:hover {
+  background: transparent;
+  color: black;
+}
+img {
+  margin: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
 
-.top-div{
+@media screen and (max-width: 480px) {
+  .top-div {
+    text-align: center;
+    width: 330px;
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 710px) {
+  .top-div {
+    margin: auto;
+
     border-radius: 20px;
     position: relative;
-    margin-left: 75px;
+
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: white;
     width: 330px;
-}
-.top-div h3{
-    width: 250px;
-    margin-left: 40px;
-    color: #27285C;
-}
-.top-div p{
-    color:rgb(154, 151, 151)
-}
-.top-div a{
-    text-decoration: none;
-    color: gray;
-}
-.top-div a:hover{
-background: transparent;
-color: black;
-}
-img{
-   
-    margin: 10px;
-    width: 300px;
-    border-radius: 10px;
-}
-@media screen and (min-width:730px) {
-    .top-div{
-        margin: auto;
-    }
-    
+  }
 }
